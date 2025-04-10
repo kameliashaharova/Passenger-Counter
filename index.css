@@ -1,0 +1,70 @@
+body {
+    background-color: #3A3E45;
+}
+
+.counter {
+    text-align: center;
+    border: 1px solid #2C2F36;
+    background-color:  #2C2F36;
+    border-radius: 50px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.72);
+    width: 500px;
+    height: 400px;
+    margin: 100px auto;
+    padding: 50px 10px 0px 10px;
+    font-family: 'Sora', sans-serif;
+    color: white;
+}
+
+#count-el {
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.btn {
+    padding: 10px 0px;
+    color: white;
+    border-radius: 20px;
+    margin: 10px 0;
+    font-weight: bold;
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: .75rem;
+}
+
+.btn:hover {
+    transform: translateY(.5px);
+}
+
+#increment-btn {
+    background-color: #1E88E5;
+    border: solid #1E88E5;
+}
+
+#save-btn {
+    background-color: rgb(15, 177, 15);
+    border: solid rgb(15, 177, 15);
+}
+
+#increment-btn:hover {
+    background-color: #1565C0;
+    border: solid #1565C0;
+}
+
+#save-btn:hover {
+    background-color: green;
+    border: solid green;
+}
+
+.entries {
+    color: #cfd8dc;
+    font-size: 0.9rem;
+    width: 200px;
+    margin: 0 auto;
+    font-weight: bold;
+    padding: 0 30px;
+    margin-top: 30px;
+    font: arial sans-serif;
+}
